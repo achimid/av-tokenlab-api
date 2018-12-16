@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class br.com.achimid.api.avtklab.integracao.service.TestEventService</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class br.com.achimid.api.avtklab.integracao.service.TestEventService</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/br.com.achimid.api.avtklab.integracao.service.html">br.com.achimid.api.avtklab.integracao.service</a> &gt; TestEventService</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.754s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testEdit</td>
+<td class="success">1.115s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExists</td>
+<td class="success">1.153s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindAll</td>
+<td class="success">1.281s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindById</td>
+<td class="success">1.144s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSave</td>
+<td class="success">1.061s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-12-16 16:24:53.199  INFO 28380 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.achimid.api.avtklab.integracao.service.TestEventService], using SpringBootContextLoader
+2018-12-16 16:24:53.200  INFO 28380 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.achimid.api.avtklab.integracao.service.TestEventService]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-16 16:24:53.200  INFO 28380 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.achimid.api.avtklab.integracao.service.TestEventService]: TestEventService does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-16 16:24:53.204  INFO 28380 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.achimid.api.avtklab.Application for test class br.com.achimid.api.avtklab.integracao.service.TestEventService
+2018-12-16 16:24:53.205  INFO 28380 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-16 16:24:53.206  INFO 28380 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c01faa2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@16c1c13e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@253b0485, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@145b32ce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@37ac1e0d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f7cf1f7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@529ed7b1, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1f1e526e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@48957bf6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2ed85a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24a9b4b1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49c91f68, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2ae0876c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5cfa7662]
+2018-12-16 16:24:53.209  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:53.209  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:53.210  INFO 28380 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table event if exists
+2018-12-16 16:24:53.211  INFO 28380 --- [    Test worker] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add &quot;;DB_CLOSE_ON_EXIT=FALSE&quot; to the db URL) [90121-197]
+2018-12-16 16:24:53.211  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2018-12-16 16:24:53.211  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-16 16:24:53.236  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Starting TestEventService on lourran-PC with PID 28380 (started by lourran in /home/lourran/Documentos/workspace/av-tokenlab/api.avtklab)
+2018-12-16 16:24:53.236  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : No active profile set, falling back to default profiles: default
+2018-12-16 16:24:53.371  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-16 16:24:53.375  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2018-12-16 16:24:53.418  INFO 28380 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$438a6bc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-16 16:24:53.503  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-12-16 16:24:53.504  INFO 28380 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-16 16:24:53.505  INFO 28380 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-16 16:24:53.509  INFO 28380 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-16 16:24:53.510  INFO 28380 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 273 ms
+2018-12-16 16:24:53.640  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2018-12-16 16:24:53.645  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2018-12-16 16:24:53.661  INFO 28380 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-16 16:24:53.665  INFO 28380 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table event if exists
+Hibernate: create table event (id integer generated by default as identity, created timestamp, updated timestamp, description varchar(255) not null, end_date timestamp not null, start_date timestamp not null, primary key (id))
+2018-12-16 16:24:53.690  INFO 28380 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65722eb3'
+2018-12-16 16:24:53.690  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:53.987  WARN 28380 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-16 16:24:54.186  INFO 28380 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7943c7be, org.springframework.security.web.context.SecurityContextPersistenceFilter@25365676, org.springframework.security.web.header.HeaderWriterFilter@42e2748d, org.springframework.web.filter.CorsFilter@5b211980, org.springframework.security.web.authentication.logout.LogoutFilter@1285678e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@240b085b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51714bc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@61f87c64, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ee0025b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46d9461b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17ce1451, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d4de9d0, org.springframework.security.web.session.SessionManagementFilter@1f41a15d, org.springframework.security.web.access.ExceptionTranslationFilter@338a10c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45cff59d]
+2018-12-16 16:24:54.207  INFO 28380 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-16 16:24:54.305  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:54.438  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-16 16:24:54.439  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-16 16:24:54.442  INFO 28380 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-16 16:24:54.471  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 40793 (http) with context path ''
+2018-12-16 16:24:54.471  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Started TestEventService in 1.25 seconds (JVM running for 47.695)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+2018-12-16 16:24:54.483  INFO 28380 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select event0_.id as id1_0_, event0_.created as created2_0_, event0_.updated as updated3_0_, event0_.description as descript4_0_, event0_.end_date as end_date5_0_, event0_.start_date as start_da6_0_ from event event0_
+2018-12-16 16:24:54.489  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:54.490  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:54.490  INFO 28380 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table event if exists
+2018-12-16 16:24:54.490  INFO 28380 --- [    Test worker] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add &quot;;DB_CLOSE_ON_EXIT=FALSE&quot; to the db URL) [90121-197]
+2018-12-16 16:24:54.490  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2018-12-16 16:24:54.491  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-16 16:24:54.514  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Starting TestEventService on lourran-PC with PID 28380 (started by lourran in /home/lourran/Documentos/workspace/av-tokenlab/api.avtklab)
+2018-12-16 16:24:54.514  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : No active profile set, falling back to default profiles: default
+2018-12-16 16:24:54.638  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-16 16:24:54.644  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2018-12-16 16:24:54.684  INFO 28380 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$438a6bc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-16 16:24:54.754  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-12-16 16:24:54.755  INFO 28380 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-16 16:24:54.755  INFO 28380 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-16 16:24:54.759  INFO 28380 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-16 16:24:54.759  INFO 28380 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 244 ms
+2018-12-16 16:24:54.847  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2018-12-16 16:24:54.848  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2018-12-16 16:24:54.857  INFO 28380 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-16 16:24:54.859  INFO 28380 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table event if exists
+Hibernate: create table event (id integer generated by default as identity, created timestamp, updated timestamp, description varchar(255) not null, end_date timestamp not null, start_date timestamp not null, primary key (id))
+2018-12-16 16:24:54.881  INFO 28380 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65722eb3'
+2018-12-16 16:24:54.882  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:55.125  WARN 28380 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-16 16:24:55.310  INFO 28380 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63ea0a6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5879947e, org.springframework.security.web.header.HeaderWriterFilter@5bfac24f, org.springframework.web.filter.CorsFilter@1e116796, org.springframework.security.web.authentication.logout.LogoutFilter@6256fa1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b14eb43, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12ebd3e6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e357942, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a19320f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a08c517, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57ed9ca3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c7d334, org.springframework.security.web.session.SessionManagementFilter@72f6f6be, org.springframework.security.web.access.ExceptionTranslationFilter@68fd41df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6788e18f]
+2018-12-16 16:24:55.330  INFO 28380 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-16 16:24:55.425  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:55.554  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-16 16:24:55.554  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-16 16:24:55.559  INFO 28380 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-16 16:24:55.587  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 33995 (http) with context path ''
+2018-12-16 16:24:55.588  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Started TestEventService in 1.088 seconds (JVM running for 48.811)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: select event0_.id as id1_0_0_, event0_.created as created2_0_0_, event0_.updated as updated3_0_0_, event0_.description as descript4_0_0_, event0_.end_date as end_date5_0_0_, event0_.start_date as start_da6_0_0_ from event event0_ where event0_.id=?
+Hibernate: update event set created=?, updated=?, description=?, end_date=?, start_date=? where id=?
+Hibernate: select event0_.id as id1_0_0_, event0_.created as created2_0_0_, event0_.updated as updated3_0_0_, event0_.description as descript4_0_0_, event0_.end_date as end_date5_0_0_, event0_.start_date as start_da6_0_0_ from event event0_ where event0_.id=?
+2018-12-16 16:24:55.604  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:55.605  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:55.605  INFO 28380 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table event if exists
+2018-12-16 16:24:55.606  INFO 28380 --- [    Test worker] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add &quot;;DB_CLOSE_ON_EXIT=FALSE&quot; to the db URL) [90121-197]
+2018-12-16 16:24:55.606  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2018-12-16 16:24:55.606  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-16 16:24:55.627  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Starting TestEventService on lourran-PC with PID 28380 (started by lourran in /home/lourran/Documentos/workspace/av-tokenlab/api.avtklab)
+2018-12-16 16:24:55.627  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : No active profile set, falling back to default profiles: default
+2018-12-16 16:24:55.743  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-16 16:24:55.747  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2018-12-16 16:24:55.787  INFO 28380 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$438a6bc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-16 16:24:55.859  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-12-16 16:24:55.859  INFO 28380 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-16 16:24:55.859  INFO 28380 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-16 16:24:55.862  INFO 28380 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-16 16:24:55.862  INFO 28380 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 233 ms
+2018-12-16 16:24:55.953  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2018-12-16 16:24:55.954  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2018-12-16 16:24:55.963  INFO 28380 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-16 16:24:55.966  INFO 28380 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table event if exists
+Hibernate: create table event (id integer generated by default as identity, created timestamp, updated timestamp, description varchar(255) not null, end_date timestamp not null, start_date timestamp not null, primary key (id))
+2018-12-16 16:24:55.982  INFO 28380 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65722eb3'
+2018-12-16 16:24:55.982  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:56.253  WARN 28380 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-16 16:24:56.372  INFO 28380 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26e5b101, org.springframework.security.web.context.SecurityContextPersistenceFilter@39429d24, org.springframework.security.web.header.HeaderWriterFilter@d3de4f6, org.springframework.web.filter.CorsFilter@7eed11ca, org.springframework.security.web.authentication.logout.LogoutFilter@6d987db1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71b8fe29, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@401e732b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2fa027a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@493fcdf0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@af5cedc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@680d9120, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@195fddcb, org.springframework.security.web.session.SessionManagementFilter@6599a45e, org.springframework.security.web.access.ExceptionTranslationFilter@31805080, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54b0b592]
+2018-12-16 16:24:56.393  INFO 28380 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-16 16:24:56.478  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:56.609  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-16 16:24:56.610  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-16 16:24:56.614  INFO 28380 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-16 16:24:56.653  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 46595 (http) with context path ''
+2018-12-16 16:24:56.653  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Started TestEventService in 1.038 seconds (JVM running for 49.877)
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+2018-12-16 16:24:56.666  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:56.667  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:56.667  INFO 28380 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table event if exists
+2018-12-16 16:24:56.668  INFO 28380 --- [    Test worker] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add &quot;;DB_CLOSE_ON_EXIT=FALSE&quot; to the db URL) [90121-197]
+2018-12-16 16:24:56.668  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2018-12-16 16:24:56.669  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-16 16:24:56.698  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Starting TestEventService on lourran-PC with PID 28380 (started by lourran in /home/lourran/Documentos/workspace/av-tokenlab/api.avtklab)
+2018-12-16 16:24:56.698  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : No active profile set, falling back to default profiles: default
+2018-12-16 16:24:56.850  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-16 16:24:56.856  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2018-12-16 16:24:56.900  INFO 28380 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$438a6bc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-16 16:24:56.978  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-12-16 16:24:56.978  INFO 28380 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-16 16:24:56.978  INFO 28380 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-16 16:24:56.982  INFO 28380 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-16 16:24:56.982  INFO 28380 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 283 ms
+2018-12-16 16:24:57.071  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2018-12-16 16:24:57.072  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2018-12-16 16:24:57.081  INFO 28380 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-16 16:24:57.085  INFO 28380 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table event if exists
+Hibernate: create table event (id integer generated by default as identity, created timestamp, updated timestamp, description varchar(255) not null, end_date timestamp not null, start_date timestamp not null, primary key (id))
+2018-12-16 16:24:57.108  INFO 28380 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65722eb3'
+2018-12-16 16:24:57.109  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:57.391  WARN 28380 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-16 16:24:57.519  INFO 28380 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63fda0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@20153ecf, org.springframework.security.web.header.HeaderWriterFilter@13c28f5e, org.springframework.web.filter.CorsFilter@56597280, org.springframework.security.web.authentication.logout.LogoutFilter@3308993d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d35afd2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3a623bf8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5423528a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@192b604d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c7ade77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b4516d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34082ce3, org.springframework.security.web.session.SessionManagementFilter@50023c9d, org.springframework.security.web.access.ExceptionTranslationFilter@19c8bf6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4428da03]
+2018-12-16 16:24:57.539  INFO 28380 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-16 16:24:57.631  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:57.760  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-16 16:24:57.761  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-16 16:24:57.766  INFO 28380 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-16 16:24:57.795  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 38817 (http) with context path ''
+2018-12-16 16:24:57.795  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Started TestEventService in 1.115 seconds (JVM running for 51.019)
+2018-12-16 16:24:57.801  INFO 28380 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select count(*) as col_0_0_ from event event0_ where event0_.id=?
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: select event0_.id as id1_0_0_, event0_.created as created2_0_0_, event0_.updated as updated3_0_0_, event0_.description as descript4_0_0_, event0_.end_date as end_date5_0_0_, event0_.start_date as start_da6_0_0_ from event event0_ where event0_.id=?
+2018-12-16 16:24:57.811  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:57.812  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:57.812  INFO 28380 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table event if exists
+2018-12-16 16:24:57.813  INFO 28380 --- [    Test worker] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add &quot;;DB_CLOSE_ON_EXIT=FALSE&quot; to the db URL) [90121-197]
+2018-12-16 16:24:57.813  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2018-12-16 16:24:57.813  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-16 16:24:57.835  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Starting TestEventService on lourran-PC with PID 28380 (started by lourran in /home/lourran/Documentos/workspace/av-tokenlab/api.avtklab)
+2018-12-16 16:24:57.835  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : No active profile set, falling back to default profiles: default
+2018-12-16 16:24:57.960  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-16 16:24:57.965  INFO 28380 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2018-12-16 16:24:58.014  INFO 28380 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$438a6bc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-16 16:24:58.099  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2018-12-16 16:24:58.100  INFO 28380 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-16 16:24:58.100  INFO 28380 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-16 16:24:58.104  INFO 28380 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-16 16:24:58.104  INFO 28380 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 268 ms
+2018-12-16 16:24:58.199  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2018-12-16 16:24:58.200  INFO 28380 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2018-12-16 16:24:58.248  INFO 28380 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-16 16:24:58.251  INFO 28380 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table event if exists
+Hibernate: create table event (id integer generated by default as identity, created timestamp, updated timestamp, description varchar(255) not null, end_date timestamp not null, start_date timestamp not null, primary key (id))
+2018-12-16 16:24:58.273  INFO 28380 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65722eb3'
+2018-12-16 16:24:58.273  INFO 28380 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-16 16:24:58.517  WARN 28380 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-16 16:24:58.647  INFO 28380 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2859fba5, org.springframework.security.web.context.SecurityContextPersistenceFilter@349424cc, org.springframework.security.web.header.HeaderWriterFilter@4a8b3ec2, org.springframework.web.filter.CorsFilter@7ae9d35, org.springframework.security.web.authentication.logout.LogoutFilter@32ca1c27, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51ff0153, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27edfe52, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@480645bc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41334933, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64c2f914, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@772cb660, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@615a3076, org.springframework.security.web.session.SessionManagementFilter@3aad5780, org.springframework.security.web.access.ExceptionTranslationFilter@27aee517, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@259a7c3]
+2018-12-16 16:24:58.665  INFO 28380 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-16 16:24:58.755  INFO 28380 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-16 16:24:58.890  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-16 16:24:58.891  INFO 28380 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-16 16:24:58.898  INFO 28380 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-16 16:24:58.945  INFO 28380 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 36451 (http) with context path ''
+2018-12-16 16:24:58.946  INFO 28380 --- [    Test worker] b.c.a.a.a.i.service.TestEventService     : Started TestEventService in 1.124 seconds (JVM running for 52.169)
+2018-12-16 16:24:58.952  INFO 28380 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select count(*) as col_0_0_ from event event0_ where event0_.id=?
+Hibernate: insert into event (id, created, updated, description, end_date, start_date) values (null, ?, ?, ?, ?, ?)
+Hibernate: select count(*) as col_0_0_ from event event0_ where event0_.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 16/12/2018 16:25:26</p>
+</div>
+</div>
+</body>
+</html>
